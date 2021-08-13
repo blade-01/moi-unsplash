@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://blade-01/moi-unsplash.git">
+    <a href="https://github.com/blade-01/moi-unsplash">
       Code
     </a>
     <span> | </span>
@@ -37,7 +37,7 @@
 ## Overview
 
 ![Home Page](/src/assets/img/Screenshot.png)
-![Search Page](/src/assets/img/Screenshot-search.png)
+![Add Picture](/src/assets/img/Screenshot-add.png)
 
 Unsplash Clone but with localStorage as db.
 
