@@ -6,15 +6,15 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://tiempo-tiempo.netlify.app">
+    <a href="https://moi-unsplash.vercel.app">
       Demo
     </a>
-    <span> | </span> -->
+    <span> | </span>
     <a href="https://blade-01/moi-unsplash.git">
       Code
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/UgCqszKR7Q7oqb4kRfI0">
+    <a href="https://devchallenges.io/challenges/rYyhwJAxMfES5jNQ9YsP">
       Challenge
     </a>
   </h3>
@@ -39,7 +39,7 @@
 ![Home Page](/src/assets/img/Screenshot.png)
 ![Search Page](/src/assets/img/Screenshot-search.png)
 
-<!-- Yayy 🤾!!! I built a weather app for checking users weather based on location input. -->
+Unsplash Clone but with localStorage as db.
 
 
 ### Built With
@@ -48,24 +48,21 @@
 
 ### Useful Resources
 
-<!-- - [Open Weather Map API](https://openweathermap.org/api) - This is the API used for fetching weather data.
-- [Moment JS](https://momentjs.com/) - This was used for date and time formatting. -->
+- Visit [Local Storage](https://) to learn more about localStorage.
 
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/) challenge. The [challenge](https://devchallenges.io/challenges/CtDWGnE4mBDp1s9HLRig) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/) challenge. The [challenge](https://devchallenges.io/challenges/rYyhwJAxMfES5jNQ9YsP) was to build an application to complete the given user stories.
 
-<!-- Users should be able to:
+Users should be able to:
 
 - View the optimal layout for the web app depending on their device's screen size
-- See a default location.
-- Search for city.
-- See weather updates by 3hrs.
-- See the date and location of the weather.
-- See an image according to each type of weather.
-- See temperature in both Celsius and Farenheit.
-- See humidity, wind direction, visibility and pressure values. -->
+- See photos in masonry layout.
+- Add a new photo to the list.
+- Search for photo by label.
+- Hover over a photo to see the delete button
+- Delete photos.
 
 ## How To Use
 
@@ -73,7 +70,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/blade-01/tiempo.git
+$ git clone https://github.com/blade-01/moi-unplash.git
 
 # Project setup
 $ yarn install

@@ -1,26 +1,87 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <Main />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Main from '@/components/Main.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: {Main},
 }
 </script>
 
 <style>
-#app {
+:root {
+  --text: #333333;
+  --bg: #ffffff;
+  --btn: #3db46d;
+  --form: #BDBDBD;
+  --del-btn: #EB5757;
+  --add-form: #4F4F4F;
+}
+body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background: var(--bg);
+  color: var(--text);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  overflow: hidden;
+  margin: auto;
+}
+form input {
+  padding: 0.8rem 2rem;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border: solid 1px var(--form);
+  color: var(--text);
+  outline: none;
+}
+form input::placeholder {
+  color: var(--form);
+}
+svg,
+button {
+  cursor: pointer;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+.btn {
+  padding: 0.8rem;
+  display: block;
+  border-radius: 5px;
+  border: none;
+  background: var(--btn);
+  color: var(--bg);
+  outline: none;
+  font-weight: bold;
+}
+@media screen and (min-width: 700px) {
+ .container {
+    width: 650px;
+  }
+}
+@media screen and (min-width: 1000px) {
+ .container {
+    width: 900px;
+  }
+}
+@media screen and (min-width: 1200px) {
+ .container {
+    width: 1200px;
+  }
 }
 </style>
