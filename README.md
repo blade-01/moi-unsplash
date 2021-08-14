@@ -48,7 +48,7 @@ Unsplash Clone but with localStorage as db.
 
 ### Useful Resources
 
-- Visit [Local Storage](https://) to learn more about localStorage.
+- Visit [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to learn more about localStorage.
 
 
 ## Features

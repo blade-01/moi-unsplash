@@ -1,6 +1,6 @@
 <template>
   <div class="add-photo">
-    <button class="btn" @click="this.$emit('show-modal')">Add a photo</button>
+    <button class="btn btn-shadow" @click="this.$emit('show-modal')">Add a photo</button>
   </div>
 </template>
 
