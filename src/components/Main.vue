@@ -40,8 +40,8 @@ export default {
       photos: [
       {
         id: 0,
-        url: 'https://i0.wp.com/www.seriezloaded.com.ng/wp-content/uploads/2021/03/wp-1614820269047.jpg?resize=678%2C1017&ssl=1',
-        label: 'Mouse',
+        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvXCvbtF-Il4K0KaIZAVHtgkWM88-zGg_QGw&usqp=CAU',
+        label: 'Aesthetic Dicron',
       },
       {
         id: 1,
@@ -50,13 +50,13 @@ export default {
       },
       {
         id: 2,
-        url: 'https://thumbnails.kpopmap.com/2021/01/Sisyphus-The-Myth-cast-and-summary-cover-680x384.jpg',
-        label: 'Sisyphus - The Myth'
+        url: 'https://i0.wp.com/www.seriezloaded.com.ng/wp-content/uploads/2021/03/wp-1614820269047.jpg?resize=678%2C1017&ssl=1',
+        label: 'Mouse',
       },
       {
         id: 3,
-        url: 'https://upload.wikimedia.org/wikipedia/en/e/eb/Maher_Zain_Album_One.jpg',
-        label: 'Maher Zain - One',
+        url: 'https://thumbnails.kpopmap.com/2021/01/Sisyphus-The-Myth-cast-and-summary-cover-680x384.jpg',
+        label: 'Sisyphus - The Myth',
       },
       {
         id: 4,
@@ -65,13 +65,14 @@ export default {
       },
       {
         id: 5,
-        url: 'https://www.denofgeek.com/wp-content/uploads/2016/02/fast-9-poster-cast-universal.jpg?resize=768%2C432',
-        label: 'Fast and Furious 9',
+
+        url: 'https://upload.wikimedia.org/wikipedia/en/e/eb/Maher_Zain_Album_One.jpg',
+        label: 'Maher Zain - One',
       },
       {
         id: 6,
-        url: 'https://asianwiki.com/images/0/01/Vincenzo-KD-p1.jpg',
-        label: 'Vinzenzo Quasano',
+        url: 'https://www.denofgeek.com/wp-content/uploads/2016/02/fast-9-poster-cast-universal.jpg?resize=768%2C432',
+        label: 'Fast and Furious 9',
       },
     ]
     }
