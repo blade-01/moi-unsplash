@@ -16,7 +16,7 @@
           <input type="text" id="url" placeholder="https://unsplash.com/sl13l" v-model="url">
         </div>
         <div class="form-field submit-field">
-          <input type="submit" value="Submit" class="btn submit-btn">
+          <input type="submit" value="Submit" class="btn submit-btn btn-shadow">
         </div>
       </form>
     </div>
@@ -92,6 +92,9 @@ export default {
 .form-field label {
   display: block;
   padding-bottom: 0.5rem;
+}
+.form-field input {
+  padding: 0.8rem;
 }
 .flex {
   display: flex;
